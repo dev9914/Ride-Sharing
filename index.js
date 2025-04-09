@@ -1,4 +1,3 @@
-// =================== MODELS ===================
 class User {
   constructor(name, age) {
     this.name = name;
@@ -35,7 +34,7 @@ class Ride {
   }
 }
 
-// =================== MAIN SYSTEM ===================
+
 class RideSharingSystem {
   constructor() {
     this.users = new Map();
@@ -154,7 +153,6 @@ class RideSharingSystem {
   }
 }
 
-// =================== TEST CASES ===================
 function runTestCases() {
   const system = new RideSharingSystem();
 
